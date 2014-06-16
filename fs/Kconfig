@@ -292,8 +292,6 @@ endif # NETWORK_FILESYSTEMS
 source "fs/nls/Kconfig"
 source "fs/dlm/Kconfig"
 
-<<<<<<< HEAD
-=======
 config ASYNC_FSYNC
 	bool
 	string "asynchronous fsync"
@@ -330,5 +328,4 @@ config RESTRICT_ROOTFS_SLAVE
 	  Android init.rc.  If this volume is unavailable, then we fall back to the
 	  previous behavior of marking the entire filesystem hierarchy as slave.
 
->>>>>>> e4920aa... Asynchronous Fsync: initial extraction of Async Fsync from HTC [faux123]
 endmenu

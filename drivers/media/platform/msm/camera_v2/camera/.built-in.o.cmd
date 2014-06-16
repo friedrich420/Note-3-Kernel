@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/msm/camera_v2/camera/built-in.o :=  /home/friedrich420/kernel/sm-arm-eabi-4.10/bin/arm-eabi-ld -EL    -r -o drivers/media/platform/msm/camera_v2/camera/built-in.o drivers/media/platform/msm/camera_v2/camera/camera.o 
